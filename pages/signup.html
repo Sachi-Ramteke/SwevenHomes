@@ -2,10 +2,215 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallary</title>
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 5px;
+    background-color: #fff;
+    height: 50px;
+    /* background: linear-gradient(to right, #fff, #ffe9cf); */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    /* border: 1px solid #734817; */
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 30px;
+    
+}
+
+.nav-links a:hover{
+    border: 1px solid black;
+    box-shadow: 1px 5px 2px -1px black;
+}
+.login-part
+{
+    height: 800px;
+    background-color:#f2f2f2;
+}
+.login-design{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 850px;
+    background-color:#D3D3D3;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.login-page{
+    margin-top: 60px;
+    height:530px;
+    width: 320px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    margin-left:60px;
+    padding: 25px;
+    
+   
+}
+.login-page1{
+    margin-top: 60px;
+    height:580px;
+    width: 350px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+}
+.maintext{
+    font-size: 18px;
+    display: block;
+    color: #808080;
+}
+.text{
+    display: block;
+    text-align: center; 
+    font-size: 25px;
+
+}
+.input{
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.input:hover{
+    border: 2px solid black;
+}
+.names{
+    margin-top: 10px;
+}
+.sign-btn{
+    width: 120px;
+    height: 35px;
+    color: black;
+    background-color: #D3D3D3;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    border-bottom: 7px solid black;
+    border-right: 5px solid black;
+}
+.collag{
+    height: 500px;
+    width: 350px;
+   
+}
+.text4{
+    margin-left: 18px;
+    display: block;
+}
+.btn-log{
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+
+
+    </style>
 </head>
 <body>
-    <h1>This Is Gallary Page </h1>
+    
+    <div class="container-1">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./../img/logo.png" class="logo">
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <a href="./../index.html">
+                        <li>Home</li>
+                    </a>
+
+                    <a href="./pages/about.html">
+                        <li>About</li>
+                    </a>
+
+                    <a href="./pages/collections.html">
+                        <li>Collections</li>
+                    </a>
+
+                </ul>
+               
+            </div>
+        </div>
+         
+        <!-- login division -->
+        <div class="login-part">
+            <div class="login-design">
+                <div class="login-page">
+                   <span class="maintext">TOUCH HOUSE</span>
+                    <span>
+                        AN Website that help you find your suitable<br>
+                        Home Doccor
+                    </span><br>
+                    <span class="text"> Sign Up!</span>
+                    <label for="name" class="names"> First Name </label><br>
+                    <input type="text" placeholder=" FIRST NAME" class="input"><br><br>
+                    <label for="name" class="names"> Last Name</label><br>
+                    <input type="text" placeholder="LAST NAME" class="input"><br><br>
+                    <label for="name" class="names"> Password</label><br>
+                    <input type="password" placeholder="PASSWORD" class="input"><br><br>
+                    <label for="name" class="names"> Confirm Password</label><br>
+                    <input type="password" placeholder="CONFIRM PASSWORD " class="input">
+                    <button class="sign-btn"> Sign Up</button><br><br>
+                    <span class="text4"> __________________OR_______________</span><BR>
+                    <a href="./login.html" class="btn-log"> login ?</a>
+                    
+
+
+                </div>
+                <div class="login-page1">
+                    <img src="./../img/collage3.webp" class="collag">
+                </div><br>
+              
+
+            </div>
+
+        </div>
+
+        
+
+        
+    </div>
 </body>
 </html>
