@@ -30,7 +30,8 @@
      .midle-head{
         font-size: 20px;
         font-weight: bold;
-        padding-bottom: 2px;  
+        padding-bottom: 2px;
+        margin-top: 10px;  
      }
      .booking-btn{
         background-color:#b30000;
@@ -51,7 +52,7 @@
      .main{
         display: flex;
         flex-direction: row;
-        background-image: url('../img/side-img.jpg');
+        background-image: url(./../img/side-img.jpg);
         background-size: cover;
         height: 750px;
         
@@ -68,7 +69,111 @@
      }
      .home{
         text-decoration: none;
+       margin-left: 180px;
+       margin-top: 50px;
+       font-weight: bold;
+
      }
+     @media screen and (max-width:600px){
+    .main{
+        background-image:url(./../img/side-img.jpg);
+
+    }
+    .contain{
+        margin-top: 100px;
+        margin-left: 1px;
+        height: 629px;
+        width: 600px;
+        padding: 10px;
+     }
+     .info-page{
+        height: 30px;
+        width: 300px;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-left: 30px;
+     }
+     .booking-btn{
+        height: 30px;
+        width: 250px;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-left: 60px;
+     }
+     .booking-page-heading{
+        text-align: center;
+     }
+     .midle-head{
+        text-align: center;
+        margin-top: 10px;
+     }
+     .text{
+        margin-left: 30px;
+     }
+     .text2{
+        text-align: center;
+        display: block;
+     }
+     .home{
+        text-align: center;
+        display: block;
+        margin-left: 22px;
+        margin-top: 20px;
+        font-weight: bold;
+     }
+   } 
+ /* media query for tab */
+    @media screen and (min-width:650px)and (max-width:970px) {
+        .main{
+        background-image:url(./../img/side-img.jpg);
+
+    }
+    .contain{
+        margin-top: 100px;
+        margin-left: 1px;
+        height: 629px;
+        width: 750px;
+        padding: 20px;
+     }
+     .info-page{
+        height: 35px;
+        width: 380px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 180px;
+        padding: 10px;
+     }
+     .booking-btn{
+        height: 35px;
+        width: 280px;
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-left: 235px;
+     }
+     .booking-page-heading{
+        text-align: center;
+     }
+     .midle-head{
+        text-align: center;
+        margin-top: 10px;
+     }
+     .text{
+        margin-left: 200px;
+     }
+     .text2{
+        text-align: center;
+        display: block;
+     }
+     .home{
+        text-align: center;
+        display: block;
+       margin-left: 22px;
+       margin-top: 20px;
+       font-weight: bold;
+     }
+     
+    }
+    
     </style>
 </head>
 <body>
@@ -80,17 +185,17 @@
              <input class="info-page"  type="email"  placeholder="Enter your email"><br><br>
              <input class="info-page" type="tel" placeholder="Enter your mobile number"><br>
              <p class="midle-head">You can reach me on WhatsApp</p> 
-            <p>Opt for meeting and offer updates on WhatsApp</p>
+            <p class="text">Opt for meeting and offer updates on WhatsApp</p>
             <br>
             <input class="info-page" type="number" placeholder="Enter your current residence pincode"><br><br>
             <button class="booking-btn" type="submit">BOOK FREE DESIGN SESSION</button><br>
             <br>
-            <p>By submitting this form,you agree to the <br>
-                <span class="text">privacy policy</span> and <span class="text">term of use</span></p>
+            <p class="text2">By submitting this form,you agree to the <br>
+                privacy policy and term of us</p>
             <a class="home" href="./../index.html">HOME</a>
       </div>
     
     </div>
     
 </body>
-</html>
+</html
