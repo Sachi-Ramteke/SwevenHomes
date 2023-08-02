@@ -16,6 +16,7 @@
     /* background: linear-gradient(to right, #fff, #ffe9cf); */
     position: fixed;
     top: 0;
+    border-bottom: 5px solid #c46c07;
 }
 
 .logo img {
@@ -40,8 +41,9 @@
     color: #734817;
     /* border: 1px solid #734817; */
     padding-block: 5px;
-    padding-inline: 10px;
+    padding-inline: 15px;
     border-radius: 2px;
+
 
 }
 
@@ -53,7 +55,7 @@
 .login-btn {
     text-decoration: none;
     font-size: 18px;
-    background-color: #7f4c11;
+    background-color: #a65b06;
     border: 1px solid #885c1b;
     border-radius: 3px;
     width: 80px;
@@ -76,3 +78,199 @@
     box-shadow: none;
     color: #885c1b;
 }
+
+.container-1 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #683903db, #f8b688);
+    width: 18vw;
+    gap: 25px;
+    height: 100%;
+
+}
+
+.sidebar .side-menus {
+    padding-inline: 10px;
+    padding-bottom: 0;
+
+}
+
+.sidebar ul {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    margin-top: 68px;
+    /* top: 12.2%; */
+    height: 88vh;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 2px;
+}
+
+.sidebar .side-menus:hover {
+    border-bottom: 7px solid #f7c995;
+    transition: all .3s ease-in-out;
+    box-shadow: 7px 2px 2px -1px #f3cfa6;
+
+}
+
+.sidebar img {
+    height: 2.3rem;
+
+}
+
+.main-collection {
+    width: 75vw;
+
+}
+
+.col-rooms {
+    margin-top: 25px;
+}
+
+.col-head {
+    margin-top: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.col-h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.col-head .col-desc {
+    font-size: 18px;
+}
+
+.col-images {
+    background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/living-rooms-2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 86%;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: linear;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slider {
+
+    0% {
+        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/living-rooms-2.jpg);
+    }
+
+    25% {
+        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/dining-room-2.webp);
+    }
+
+    50% {
+        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/collage-beds-1.jpg);
+    }
+
+
+    75% {
+        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/collage-kitchen-2.webp);
+    }
+
+
+
+}
+
+.main-tag {
+    color: #fff;
+    width: 45%;
+    /* height: 100vh; */
+    position: relative;
+    top: 35%;
+    bottom: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.main-head {
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.main-info {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+/* .features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.feature {
+    width: 25%;
+    box-shadow: 1px 1px 15px 2px #bfbfbf;
+    padding-block: 15px;
+    padding-inline: 15px;
+    margin-bottom: 10px;
+
+}
+
+.feature-desc {
+    text-align: center;
+}
+
+.feature i {
+    color: #db923e;
+    padding: 5px;
+    font-size: 26px;
+    box-shadow: 1px 1px 10px 2px #e1e1e1;
+
+}
+
+.feat-desc {
+    text-align: center;
+    margin-block: 10px;
+}
+
+.font-icon img{
+    margin-block: 8px;
+    width: 100%;
+
+} */
