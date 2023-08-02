@@ -294,6 +294,7 @@ body {
     margin-right: auto;
     height: 180px;
     width: 150px;
+    border-radius: 10px;
     /* align-items:center; */
     /* border-radius: 50%; */
 }
@@ -306,22 +307,31 @@ body {
     margin-top: 50px;
     text-align: center;
     /* align-items: center; */
+
+
 }
 
 .info-container-1 .info {
 
-    /* width:25%;
-    margin-top: 50px;
-    gap: 25px;
-    margin-left:auto;
-    margin-right: auto; */
 
-    width: 30%;
+    width: 20%;
     box-shadow: 1px 1px 15px 2px #e4e4e4;
     padding-block: 20px;
     padding-inline: 10px;
     margin: 20px;
 }
+
+.info:hover{
+
+    box-shadow: 2px 2px 4px 3px #a7671d;
+
+}
+
+/* .info-container-1 .info:hover{
+
+    height:40px;
+    width:25px;
+} */
 
 .name {
 
