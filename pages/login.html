@@ -69,7 +69,8 @@
     height: 700px;
     width: 850px;
     background-color:rgb(203, 128, 95);
-    margin-left: 190px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
 }
 .login-page{
@@ -108,19 +109,9 @@
 margin-top: 20px;
 display: block;
 }
-.input{
-    margin-top: 10px;
-    padding: 5px;
-    padding-left: 20px;
-    width: 300px;
-    height: 25px;
-    border-radius: 10px;
-    border: 1px black solid;
 
-}
-.input:hover{
-    border: 2px solid #ffbf80 ;
-}
+
+
 .btn-login{
     width: 300px;
     background-color: #ffa64d;
@@ -165,6 +156,56 @@ font-size: 17px;
 }
 .img-{
     height: 15px;
+}
+
+/* media screen above */
+.maintext{
+    font-size: 5px;
+    display: block;
+    color: #808080;
+}
+.text{
+    display: block;
+    text-align: center; 
+    font-size: 15px;
+
+}
+.input{
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid #a7671d ;
+}
+.input:hover{
+    border: 2px solid #a7671d ;
+}
+.sign-btn{
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(184, 165, 136);;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    border-bottom: 7px solid black;
+    border-right: 5px solid black;
+}
+
+ 
+.text4{
+    margin-left: 18px;
+    display: block;
+}
+.btn-log{
+    text-decoration: none;
+    margin-left: 70px;
 }
 
  /* meadia query for mobile */
@@ -224,9 +265,9 @@ font-size: 17px;
 }
 .input{
     margin-top: 8px;
-    padding: 2px;
+    padding: 8px;
     padding-left: 10px;
-    width: 180px;
+    width: 220px;
     height: 15px;
     border-radius: 8px;
     border: 1px black solid;
@@ -250,54 +291,8 @@ font-size: 17px;
 
 } 
 
-/* media screen above */
-.maintext{
-    font-size: 5px;
-    display: block;
-    color: #808080;
-}
-.text{
-    display: block;
-    text-align: center; 
-    font-size: 15px;
 
-}
-.input{
-    margin-top: 10px;
-    padding: 5px;
-    padding-left: 20px;
-    width: 300px;
-    height: 25px;
-    border-radius: 10px;
-    border: 1px black solid;
-}
-.input:hover{
-    border: 2px solid black;
-}
-.sign-btn{
-    width: 120px;
-    height: 35px;
-    color: white;
-    background-color: rgb(184, 165, 136);;
-    margin-left: 100px;
-    margin-top: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.sign-btn:hover{
-    border-bottom: 7px solid black;
-    border-right: 5px solid black;
-}
 
- 
-.text4{
-    margin-left: 18px;
-    display: block;
-}
-.btn-log{
-    text-decoration: none;
-    margin-left: 70px;
-}
 
 /* meadia query for tab */
 @media screen and (min-width:600px) and (max-width:970px) {
@@ -358,7 +353,7 @@ font-size: 17px;
     width: 200px;
     height: 17px;
     border-radius: 8px;
-    border: 1px black solid;
+    border: 1px  #a7671d solid;
 
 }
 .sign-btn{
