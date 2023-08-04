@@ -98,14 +98,6 @@
 }
 
 
-.designer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 50%;
-}
-
 .designers {
     display: flex;
     flex-direction: column;
@@ -168,7 +160,6 @@
 
 #img1:checked~.m1 {
     margin-left: 0;
-   
 }
 
 #img2:checked~.m2 {
@@ -358,15 +349,28 @@
 }
 
 .footer .box-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap: 3rem;
-    /* margin-left: 5rem; */
+     margin-left: 5rem; 
     padding-inline: 10px;
     margin-bottom: 0;
-    z-index: 50;
+    z-index: 50;*/
+
+}
+
+.box-container .box {
+    width: 21%;
+    padding-inline: 10px;
+    padding-block: 16px;
+    margin-bottom: 30px;
 }
 
 .footer .box-container .box h3 {
@@ -427,10 +431,12 @@
 
 }
 
-
+.parentnav{
+    display: none;
+}
 
 .navbar-2 {
-    display: none;
+    display:flex;
     justify-content: space-around;
     align-items: center;
     padding-block: 5px;
@@ -477,15 +483,99 @@
 
 
 
-@media screen and (max-width: 800px) {
-    .container-1 .sidebar {
+@media screen and (max-width: 868px) {
+
+    .container1 .sidebar {
         display: none;
     }
 
-    .container-1 .navbar-2 {
-        display: flex;
+    .parentnav {
+        display: block;
+
     }
 
-    .container-1 .main-collection {}
+    .container-3 {
+        width: 100vw;
+    }
+
+    /* .project {
+        width: 40%;
+    } */
+
+    .container1 {
+        /* display: flex; */
+        margin-top: 110px;
+    }
+
+    .footer .box {
+        width: 40%;
+    }
+
+    .footer .box-container .box p,
+    .footer .box-container .box a {
+        font-size: 16px;
+    }
+
+    .navbar,
+    .navbar-2 {
+        z-index: 50;
+    }
+
+    .footer .credit {
+
+        font-size: 18px;
+    }
+
+    .slider {
+        position: relative;
+        width: 80%;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .container1 .sidebar {
+        display: none;
+    }
+
+    .parentnav {
+        display: block;
+
+    }
+
+    .navbar,
+    .navbar-2 {
+        z-index: 50;
+    }
+
+    /* .project {
+        width: 80%;
+    } */
+
+    .container1 {
+        display: flex;
+        margin-top: 110px;
+    }
+
+    .footer .box {
+        width: 80%;
+    }
+
+    .footer .box-container .box p,
+    .footer .box-container .box a {
+        font-size: 14px;
+    }
+
+    .footer .credit {
+        font-size: 16px;
+    }
+
+    .slider {
+        position: relative;
+        width: 80%;
+        overflow: hidden;
+    }
+
 
 }
