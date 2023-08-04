@@ -823,6 +823,10 @@
 
 @media screen and (max-width:768px) {
 
+    .nav-links ul{
+        display: none;
+    }
+
     .parentnav {
         display: block;
       
@@ -888,6 +892,10 @@
 
 
 @media screen and (max-width:600px) {
+
+    .nav-links ul{
+        display: none;
+    }
 
     .parentnav {
         display: block;
