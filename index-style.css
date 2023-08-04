@@ -599,4 +599,35 @@
 }
 
 
-@media screen {}
+@media screen and (max-width:991px){
+    .main-head{
+        font-size: 35px;
+    }
+
+    .main-info{
+        font-size: 25px;        
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .main-head{
+        font-size: 30px;
+    }
+
+    .main-info{
+        font-size: 20px;        
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+    .main-head{
+        font-size: 26px;
+    }
+
+    .main-info{
+        font-size: 18px;        
+    }
+}

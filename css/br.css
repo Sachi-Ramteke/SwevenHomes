@@ -168,14 +168,15 @@
 
 #img1:checked~.m1 {
     margin-left: 0;
+   
 }
 
 #img2:checked~.m2 {
-    margin-left: -100%;
+    margin-left: -92%;
 }
 
 #img3:checked~.m3 {
-    margin-left: -200%;
+    margin-left: -188%;
 }
 
 #img4:checked~.m4 {
@@ -188,11 +189,11 @@
 }
 
 #img6:checked~.m2 {
-    margin-left: -100%;
+    margin-left: -92%;
 }
 
 #img7:checked~.m3 {
-    margin-left: -200%;
+    margin-left: -188%;
 }
 
 #img8:checked~.m4 {
@@ -205,11 +206,11 @@
 }
 
 #img10:checked~.m2 {
-    margin-left: -100%;
+    margin-left: -92%;
 }
 
 #img11:checked~.m3 {
-    margin-left: -200%;
+    margin-left: -188%;
 }
 
 #img12:checked~.m4 {
