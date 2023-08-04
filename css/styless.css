@@ -31,6 +31,9 @@
     flex-wrap: wrap;
 }
 
+.projects .project:hover{
+    box-shadow: 1px 1px 10px 4px #818181;
+}
 
 .project {
     width: 23%;
@@ -177,7 +180,6 @@
 .sidebar .side-menus:hover {
     border-bottom: 7px solid #f7c995;
     transition: all .3s ease-in-out;
-    box-shadow: 7px 2px 2px -1px #f3cfa6;
 
 }
 
