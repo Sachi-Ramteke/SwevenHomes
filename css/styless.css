@@ -9,8 +9,8 @@
 
 .container-3 {
     margin-bottom: 25px;
+    width: 85vw;
    
-
 }
 
 .head-3 {
@@ -33,7 +33,7 @@
 
 
 .project {
-    width: 21%;
+    width: 23%;
     box-shadow: 1px 1px 10px 2px #bebebe;
     padding-inline: 10px;
     padding-block: 16px;
@@ -128,7 +128,7 @@
     align-items: center;
     /* background: linear-gradient(to right, #683903db, #f8b688); */
     background-color: #a65b06;
-    width: 18vw;
+    width: 15vw;
     gap: 25px;
     height: 100%;
     padding-bottom: 110px;
@@ -266,11 +266,8 @@
 
 }
 
-
-
 .navbar-2 {
    
-
     display: none;
     justify-content: space-around;
     align-items: center;
