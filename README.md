@@ -2,6 +2,8 @@
 
 We are creating an online service-based website for designing and decorating your homes with the dreamsight you harbor.
 
+<img src="./img/Screenshot (698).png" alt="home-inage" title="Home-Page Demo" >
+
 Our Group Members and Their Assigned Work :
 
 -SACHI RAMTEKE - Website Designing and Creating The Home Page and Collection Pages
