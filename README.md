@@ -2,7 +2,8 @@
 
 We are creating an online service-based website for designing and decorating your homes with the dreamsight you harbor.
 
-<img src="./img/Screenshot (698).png" alt="home-inage" title="Home-Page Demo" >
+![home Page Demo]
+(mainpage.png)
 
 Our Group Members and Their Assigned Work :
 
