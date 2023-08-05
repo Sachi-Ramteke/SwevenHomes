@@ -8,15 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
 <style>
-
 * {
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -26,22 +23,18 @@
     height: 50px;
     /* background: linear-gradient(to right, #fff, #ffe9cf); */
 }
-
 .logo img {
     height: 50px;
 }
-
 .nav-links {
     display: flex;
     gap: 20px;
 }
-
 .nav-links ul {
     display: flex;
     gap: 10px;
     list-style: none;
 }
-
 .nav-links a {
     text-decoration: none;
     font-size: 18px;
@@ -52,7 +45,6 @@
     border-radius: 2px;
     
 }
-
 .nav-links a:hover{
     border: 1px solid black;
     box-shadow: 0px 5px 2px -1px black;
@@ -98,7 +90,6 @@
     display: block;
     text-align: center; 
     font-size: 25px;
-
 }
 .input{
     margin-top: 10px;
@@ -145,6 +136,188 @@
 }
 
 
+ /* meadia query for mobile */
+ @media screen and (max-width:600px){
+    * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding-block: 5px;
+    background-color: #fff;
+    height: 50px;
+    /* background: linear-gradient(to right, #fff, #ffe9cf); */
+}
+
+.logo img {
+    height: 50px;
+}
+
+
+
+.nav-links a:hover{
+    border: 1px solid #734817;
+    box-shadow: 1px 5px 2px -1px #a7671d;
+} 
+.login-part
+{
+    height: 350px;
+    width: 350px;
+    background-color:rgb(136, 141, 184);
+}
+.login-design{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: 400px;
+    background-color: #a7671d;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.login-page{
+
+    margin-top: 25px;
+    height:490px;
+    width: 320px;
+    border: 1px solid black;
+    background-color: #fff;
+    margin-left:10px;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.input{
+    margin-top: 8px;
+    padding: 8px;
+    padding-left: 10px;
+    width: 220px;
+    height: 15px;
+    border-radius: 8px;
+    border: 1px black solid;
+
+}
+.sign-btn{
+    width: 70px;
+    height: 20px;
+    color: white;
+    background-color: rgb(184, 165, 136);
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-page1{
+    display: none; 
+}
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+
+} 
+
+
+
+
+/* meadia query for tab */
+@media screen and (min-width:600px) and (max-width:970px) {
+    * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding-block: 6px;
+    background-color: #fff;
+    height: 60px;
+    /* background: linear-gradient(to right, #fff, #ffe9cf); */
+}.logo img {
+    height: 50px;
+}
+
+
+
+.nav-links a:hover{
+    border: 1px solid #734817;
+    box-shadow: 1px 5px 2px -1px #a7671d;
+} 
+/* .login-part
+{
+    height: 350px;
+    width: 350px;
+    background-color:rgb(136, 141, 184);
+} */
+.login-design{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: 800px;
+    background-color:rgb(169, 135, 121);
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.login-page{
+
+    margin-top: 25px;
+    height:460px;
+    width: 320px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    margin-left:30px;
+    padding: 25px;
+
+
+}
+.input{
+    margin-top: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    width: 200px;
+    height: 17px;
+    border-radius: 8px;
+    border: 1px  #a7671d solid;
+
+}
+.sign-btn{
+    width: 90px;
+    height: 20px;
+    color: white;
+    background-color: rgb(184, 165, 136);
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-page1{
+    margin-top: 26px;
+    height:510px;
+    width: 350px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+
+
+}
+.collag{
+    height: 480px;
+    width: 350px;
+}
+
+} 
+
 
     </style>
 </head>
@@ -155,21 +328,17 @@
             <div class="logo">
                 <img src="./../img/logo.png" class="logo">
             </div>
-
             <div class="nav-links">
                 <ul>
                     <a href="./../index.html">
                         <li>Home</li>
                     </a>
-
                     <a href="./../pages/about.html">
                         <li>About</li>
                     </a>
-
                     <a href="./../pages/collections.html">
                         <li>Collections</li>
                     </a>
-
                 </ul>
                
             </div>
@@ -197,21 +366,16 @@
                     <span class="text4"> __________________OR_______________</span><BR>
                     <a href="./login.html" class="btn-log"> login ?</a>
                     
-
-
                 </div>
                 <div class="login-page1">
                     <img src="./../img/collage3.webp" class="collag">
                 </div><br>
               
-
             </div>
-
         </div>
-
         
-
         
     </div>
 </body>
 </html>
+
