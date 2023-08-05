@@ -163,11 +163,11 @@
 }
 
 #img2:checked~.m2 {
-    margin-left: -92%;
+    margin-left: -100%;
 }
 
 #img3:checked~.m3 {
-    margin-left: -188%;
+    margin-left: -200%;
 }
 
 #img4:checked~.m4 {
@@ -180,11 +180,11 @@
 }
 
 #img6:checked~.m2 {
-    margin-left: -92%;
+    margin-left: -100%;
 }
 
 #img7:checked~.m3 {
-    margin-left: -188%;
+    margin-left: -200%;
 }
 
 #img8:checked~.m4 {
@@ -197,11 +197,11 @@
 }
 
 #img10:checked~.m2 {
-    margin-left: -92%;
+    margin-left: -100%;
 }
 
 #img11:checked~.m3 {
-    margin-left: -188%;
+    margin-left: -200%;
 }
 
 #img12:checked~.m4 {

@@ -71,6 +71,28 @@
     color: #885c1b;
 }
 
+
+.parentnav {
+    display: none;
+}
+
+.navbar-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 5px;
+    background-color: #fff;
+    width: 100%;
+    /* background: linear-gradient(to right, #fff, #ffe9cf); */
+    position: fixed;
+    top: 62px;
+    border-bottom: 5px solid #c46c07;
+    border-top: 2px solid #c46c07;
+    
+}
+
+
 body {
     margin-left: 0;
 }
@@ -207,127 +229,103 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.third-cntainer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.third-container-head {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
-}
-.designer-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /* height: 180px;
-    width: 180px; */
-    /* margin-top: -65px;  */
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 1px 1px 2px 2px #bab9b9;
-    margin-bottom: 10px;
-}
-.design-info {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(248, 240, 230);
-    padding-inline: 30px;
-    font-size: 18px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    font-weight: 60px;
-    height: 100px;
-}
-.design-info a {
-    font-size: 24px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-bottom: 30px;
-    padding-top: 40px;
-}
-.links {
-    margin-top: 20px;
-    margin-bottom: 50px;
+
+.container-5 {
+    margin-bottom: 30px;
 }
 
-.info:hover .design-info {
-    color: #fff;
-    background-color: #ca915c;
-}
-.info:hover .design-info a {
-    color: #fff;
-}
-.design-info p p {
-    margin-top: 10px;
-}
-.info-container-1 {
+.review-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
-    text-align: center;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-.info-container-1 .info {
-    width: 20%;
-    box-shadow: 1px 1px 15px 2px #bab9b9;
+.review {
+    width: 35%;
+    box-shadow: 1px 1px 15px 2px #c4c4c4;
     padding-block: 20px;
-    padding-inline: 10px;
-    margin: 20px;
+    padding-inline: 30px;
+    margin-bottom: 15px;
+    /* margin-block: 15px; */
 }
-.info {
-    font-size: 20px;
-    padding: 30px;
-    /* width: 150px; */
-    width: 38%;
-}
-.info:hover {
-    box-shadow: 2px 2px 6px 3px #ca915c;
+
+.review img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
 
 }
-.name {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
+
+.review h3 {
+    /* display: inline-block; */
+    margin-block: 10px;
+
 }
+
+.head-5 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.head-5 p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
 
 .footer {
-    padding-top: 2rem;
-    margin-top: 6rem;
+    padding-top: 12px;
+    margin-top: 120px;
 }
 
 .footer .box-container {
-    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap: 3rem;
-    padding-inline: 1rem;
-    margin-bottom: 0;
+     margin-left: 5rem; 
+    padding-inline: 10px;
+    margin-bottom: 0; */
 }
+
+.box-container .box {
+    width: 21%;
+    padding-inline: 10px;
+    padding-block: 16px;
+    margin-bottom: 30px;
+}
+
 .footer .box-container .box h3 {
     text-transform: uppercase;
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
+    /* color: var(--black); */
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.footer .box-container .box h3:hover {
+    text-decoration: underline;
 }
 
 .footer .box-container .box p,
 .footer .box-container .box a {
     display: block;
-    font-size: 1.1rem;
+    font-size: 18px;
     color: black;
-    padding: 1rem 0;
+    padding: 8px 0;
     text-decoration: none;
 }
 
 .footer .box-container .box p i,
 .footer .box-container .box a i {
     color: black;
-    padding-right: .5rem;
+    padding-right: 5px;
 
 }
 
@@ -352,12 +350,175 @@ body {
 }
 
 .footer svg {
-    position: relative;
+    /* position: relative; */
+    /* top: -30px; */
     margin-bottom: 0;
     padding-bottom: 0;
+
 }
 
 .foot {
     display: flex;
     flex-direction: column;
+
+}
+
+
+
+
+@media screen and (max-width:991px) {
+    .main-head {
+        font-size: 35px;
+    }
+
+    .main-info {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* .nav-links ul{
+        display: none;
+    }
+
+    .parentnav {
+        display: block;
+      
+    } */
+
+    .content1{
+        font-size: 20px;
+    }
+
+    .main-tag .main-head {
+        font-size: 25px;
+    }
+
+    .main-tag .main-info {
+        font-size: 18px;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .video-desc {
+        width: 90%;
+    }
+
+    .projects .project {
+        width: 40%;
+    }
+
+    .assist-img {
+        width: 90%;
+    }
+
+    .image-descc {
+        width: 90%;
+    }
+
+    .feature {
+        width: 40%;
+    }
+
+    .review {
+        width: 45%;
+    }
+
+    .footer .box {
+        width: 40%;
+    }
+
+    .footer .box-container .box p,
+    .footer .box-container .box a {
+        font-size: 16px;
+    }
+
+    .navbar,
+    .navbar-2 {
+        z-index: 50;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    /* .nav-links ul{
+        display: none;
+    }
+
+    .parentnav {
+        display: block;
+    } */
+
+    .content1{
+        font-size: 18px;
+    }
+
+    .main-tag .main-head {
+        font-size: 22px;
+    }
+
+    .main-tag .main-info {
+        font-size: 16px;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .video-desc {
+        width: 80%;
+    }
+
+    .projects .project {
+        width: 80%;
+    }
+
+    .assist-img {
+        width: 80%;
+    }
+
+    .image-descc {
+        width: 80%;
+    }
+
+    .feature {
+        width: 80%;
+    }
+
+    .review {
+        width: 80%;
+    }
+
+    .footer .box {
+        width: 80%;
+    }
+
+    .footer .box-container .box p,
+    .footer .box-container .box a {
+        font-size: 14px;
+    }
+
+    .navbar,
+    .navbar-2 {
+        z-index: 50;
+    }
 }
